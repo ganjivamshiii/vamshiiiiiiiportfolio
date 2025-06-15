@@ -573,17 +573,24 @@
 .project-links a:hover {
     color: #1e90ff;
 }
-.cntt {
+.cn {
   display: flex;
-  justify-content: space-around; /* Or use space-between / center */
-  align-items: flex-start;
-  flex-wrap: wrap; /* Optional: ensures responsiveness on small screens */
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
+#link{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f0f0f0;
 
-.cnt {
-  padding: 10px;
-  min-width: 200px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
+}
+a:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 /* Hamburger menu button */
@@ -665,5 +672,6 @@
 
 #thankyou{
     display: flex;
-      justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
